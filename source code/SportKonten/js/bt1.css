@@ -1,0 +1,33 @@
+.kartu{
+    border-radius: 20px;
+}
+
+.foto{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.foto2{
+    border-radius: 20px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.carouselborder{
+    border-radius: 10px;
+}
+
+.navborder{
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.font{
+    color: #f0f0f0;
+}
+
+.bg-abu {
+    background-color: #f0f0f0 !important;
+  }

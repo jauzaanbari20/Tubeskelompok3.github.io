@@ -1,0 +1,7 @@
+@media only screen and (max-width: 758px){
+    .btn-primary, .btn-outline-succes {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+} 
+

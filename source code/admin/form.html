@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css">
+    <title>tes</title>
+    <script src="ckeditor/ckeditor.js"></script>
+</head>
+<body>
+    <form action="coba.php" method="post"><table>
+    <tr><td>Judul</td><td>:</td><td><input type="text" name="judul"></td></tr>
+    <tr><td>Date</td><td>:</td><td><input type="text" name="date" id=""></td></tr></table>
+    
+        Isi Konten
+        <textarea name="konten" id="konten" cols="80" rows="10">
+            
+
+        </textarea>
+        <button type="submit" class="btn btn-outline-success">Go!</button>
+        
+    </form>
+    
+    <script>
+        CKEDITOR.replace('konten');
+    </script>
+</body>
+</html>

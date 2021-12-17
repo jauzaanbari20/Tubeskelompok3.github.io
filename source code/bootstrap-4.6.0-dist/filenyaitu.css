@@ -1,0 +1,47 @@
+@media (min-width: 576px) {   
+
+  }
+@media (min-width: 768px) {  
+
+   }
+@media (min-width: 992px) { 
+
+ }
+@media (min-width: 1200px) {
+}
+
+@font-face { font-family: Lemon; src: url('LEMONMILK-Medium.otf'); }
+
+.navbar {
+  background-color: teal;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+  font-family: Lemon;
+  font-size: 13px;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+#menu_a {
+   height: 35px;
+   border-radius: 50%;
+}
+#pahit {
+    margin-left: 10px;
+  }
+#asem {
+    margin-left: 700px;
+  }
+  
+.margins {
+  margin-left: 10px;
+}
